@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+body {
+    background-color: #eeece9;
+}
+
+.title{
+    font-family: "Noto Serif Japanese", Serif;
+    margin: 20px 0;
+	font-size: 5vw;
+    color: #cf9bdd;
+	text-align:center;
+	font-weight:bold;
+	color: transparent;
+
+    /*background: repeating-radial-gradient(#c9b03e 0 15px, #06117e 15px 30px);
+    -webkit-background-clip: text;*/
+
+
+    background: linear-gradient(90deg, #06117e,  #9e2d2c 50%, #c9b03e);
+    background: -webkit-linear-gradient(0deg, #06117e, #9e2d2c, 50%, #c9b03e);
+}
